@@ -47,7 +47,7 @@ app.include_router(user.router)
 #         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,
 #                         detail = f"Blog with the id {id} is not found")
 #     blog.update({'title': request.title,'body': request.body})
-#     db.commit()
+#     db.commit()~
 #     return "Updated"
 
 
